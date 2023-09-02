@@ -1,0 +1,36 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe application",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Kostas Lougiakis",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.9.3",
+    "@types/regenerator-runtime": "^0.13.1",
+    "parcel": "^2.9.3",
+    "process": "^0.11.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Recipe application"
+  },
+  "dependencies": {
+    "babel": "^6.23.0",
+    "core-js": "^3.32.0",
+    "fractional": "^1.0.0",
+    "fracty": "^1.0.11",
+    "regenerator-runtime": "^0.14.0"
+  },
+  "babel": {
+    "plugins": [
+      "babel/plugin-proposal-class-properties",
+      "babel/plugin-proposal-private-methods"
+    ]
+  }
+}
+
